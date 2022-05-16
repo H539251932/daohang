@@ -1,8 +1,8 @@
 /*!
  * Theme Name:One Nav
- * Theme URI:https://www.iotheme.cn/
+ * Theme URI:https://moinkhao.rth1.me//
  * Author:iowen
- * Author URI:https://www.iowen.cn/
+ * Author URI:https://moinkhao.rth1.me//
  */
 (function($){ 
     $(document).ready(function(){
@@ -1290,7 +1290,7 @@ function ioConfirm(message, btnCallBack) {
 	}
 	return popup;
 }
-console.log("\n %c One Nav 导航主题 By 一为 %c https://www.iotheme.cn/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
+console.log("\n %c One Nav 墨陌主题 By Moinkhao %c https://moinkhao.rth1.me/ \n", "color: #ffffff; background: #f1404b; padding:5px 0;", "background: #030307; padding:5px 0;");
 
 /**
  * Minified by jsDelivr using Terser v5.3.5.
