@@ -201,10 +201,10 @@ function loadWidget(config) {
 			});
 	})();
 
-	async function loadModelList() {
-		const response = await fetch(`${cdnPath}model_list.json`);
-		modelList = await response.json();
-	}
+// 	async function loadModelList() {
+// 		const response = await fetch(`${cdnPath}model_list.json`);
+// 		modelList = await response.json();
+// 	}
 
 	async function loadModel(modelId, modelTexturesId, message) {
 		localStorage.setItem("modelId", modelId);
