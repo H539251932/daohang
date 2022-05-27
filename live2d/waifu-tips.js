@@ -89,7 +89,7 @@ function loadWidget(config) {
 			}, 3000);
 		});
 		const devtools = () => {};
-// 		console.log("%c", devtools);
+		console.log("%c", devtools);
 		devtools.toString = () => {
 			showMessage("哈哈，你打开了控制台，是想要看看我的小秘密吗？", 6000, 9);
 		};
@@ -201,6 +201,10 @@ function loadWidget(config) {
 			});
 	})();
 
+        async function loadModelList() {
+		const response = await fetch(`${cdnPath}model_list.json`);
+		modelList = await response.json();
+	}
 
 	async function loadModel(modelId, modelTexturesId, message) {
 		localStorage.setItem("modelId", modelId);
